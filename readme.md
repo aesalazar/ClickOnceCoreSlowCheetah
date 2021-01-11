@@ -23,3 +23,9 @@ To fix:
 This time it should succeed. 
 
 Everything in the project are defaults.  I simply created a new WPF (.NET Core 3.1) App which automatically created the window.  I did add a single `TextBlock` to it.  I then used the Publish Wizard, selected `Folder` for Target and `ClickOnce` for Specific Target, and used all defaults in subsequent screens.
+
+<div style="text-align: center;">
+    <a href="Documents/Screeny.gif" target="_blank">
+        <img src="Documents/Screeny.gif" alt="Screen Shot" >
+    </a>  
+</div>
