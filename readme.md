@@ -1,3 +1,9 @@
+<div style="text-align: center;">
+    <a href="Documents/Screeny.gif" target="_blank">
+        <img src="Documents/Screeny.gif" alt="Screen Shot" >
+    </a>  
+</div>
+
 Demonstrates inability to push .net core 3.1 project that references
 [Microsoft's Slow-Cheetah](https://github.com/microsoft/slow-cheetah) (3.2.18 as of the time of this writing) transform package for Visual Studio.
 
@@ -23,9 +29,3 @@ To fix:
 This time it should succeed. 
 
 Everything in the project are defaults.  I simply created a new WPF (.NET Core 3.1) App which automatically created the window.  I did add a single `TextBlock` to it.  I then used the Publish Wizard, selected `Folder` for Target and `ClickOnce` for Specific Target, and used all defaults in subsequent screens.
-
-<div style="text-align: center;">
-    <a href="Documents/Screeny.gif" target="_blank">
-        <img src="Documents/Screeny.gif" alt="Screen Shot" >
-    </a>  
-</div>
